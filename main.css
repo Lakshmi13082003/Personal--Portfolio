@@ -70,13 +70,16 @@ body {
     border-radius: 2rem;
     text-decoration: none;
     text-align: center;
-    transition: background-color 0.3s;
+    justify-content: center;
+    margin-right: 1.8rem;
+    margin-top: 2rem;
+
 }
 
 .social-icons-container {
     display: flex;
     justify-content: center;
-    padding-top: 30rem;
+    padding-top: 5rem;
 }
 
 .social-icons i {
@@ -115,8 +118,9 @@ body {
 
 .projects-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .project-card {
@@ -191,6 +195,7 @@ footer #para6 {
     .horizontal-nav a {
         font-size: 1.5rem;
         margin: 0 0.5rem;
+        display: none;
     }
 
     .sub1, .sub2 {
@@ -211,6 +216,7 @@ footer #para6 {
     #buttonalign {
         font-size: 1rem;
         padding: 5px 10px;
+        margin-right: 4rem;
     }
 
     .social-icons-container {
